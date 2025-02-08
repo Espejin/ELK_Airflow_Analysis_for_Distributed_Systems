@@ -28,7 +28,7 @@ We need to put the files in order to work correctly in the docker container. I r
 ## Dags Considerations:
 
 * "1_dag_ejecutor_curl_basico.py" - It's a first we traffic generator. It's send GET requests using CURL every 5 seconds, the request it's randomly send to one of the nginx services and sections of the website.
-* "1_dag_ejecutor_curl_basico.py" - It's a traffic generator for general use. The dag will execute every 2 mins, generating web traffic and logging info to MySQL database.
+* "2_dag_ejecutor_curl_bajo_pedido.py" - It's a traffic generator for general use. The dag will execute every 2 mins, generating web traffic and logging info to MySQL database.
 
 ## Logstash Considerations:
 
